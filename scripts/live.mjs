@@ -18,11 +18,11 @@ async function gh(path, init = {}) {
 
 async function collect() {
   if (SAMPLE) return {
-    contributions: 612, repos: 21, stars: 9, followers: 14,
+    contributions: 612, repos: 21, stars: 9, followers: 14, streak: 12, active: 140,
     langs: [['JavaScript', 52.1], ['HTML', 18.4], ['CSS', 14.9], ['Python', 9.7], ['TypeScript', 4.9]],
     feed: [['PUSHED 4 COMMITS', 'PROTFOLIO', '2H'], ['CREATED REPO', 'praple_props', '1D'], ['PUSHED 2 COMMITS', 'akshatparashar', '3D'], ['STARRED', 'taste-skill', '5D'], ['PUSHED 1 COMMIT', 'Rubik-s-Cube', '3W']],
   };
-  const out = { contributions: null, repos: null, stars: null, followers: null, langs: [], feed: [] };
+  const out = { contributions: null, repos: null, stars: null, followers: null, streak: null, active: null, langs: [], feed: [] };
   const step = async (name, fn) => { try { await fn(); } catch (e) { console.warn(`  ${name} skipped: ${e.message}`); } };
 
   await step('user', async () => {
@@ -40,9 +40,16 @@ async function collect() {
     out.langs = Object.entries(bytes).sort((a, b) => b[1] - a[1]).slice(0, 5).map(([k, v]) => [k, (v / total) * 100]);
   });
   await step('contributions', async () => {
-    const q = { query: `query($l:String!){user(login:$l){contributionsCollection{contributionCalendar{totalContributions}}}}`, variables: { l: USER } };
+    const q = { query: `query($l:String!){user(login:$l){contributionsCollection{contributionCalendar{totalContributions weeks{contributionDays{contributionCount}}}}}}`, variables: { l: USER } };
     const j = await gh('/graphql', { method: 'POST', body: JSON.stringify(q), headers: { 'Content-Type': 'application/json' } });
-    out.contributions = j.data?.user?.contributionsCollection?.contributionCalendar?.totalContributions ?? null;
+    const cal = j.data?.user?.contributionsCollection?.contributionCalendar;
+    out.contributions = cal?.totalContributions ?? null;
+    if (cal?.weeks) {
+      const days = cal.weeks.flatMap((w) => w.contributionDays.map((d) => d.contributionCount));
+      out.active = days.filter((n) => n > 0).length;
+      let run = 0; out.streak = 0;
+      for (const n of days) { run = n > 0 ? run + 1 : 0; out.streak = Math.max(out.streak, run); }
+    }
   });
   await step('events', async () => {
     const ev = await gh(`/users/${USER}/events/public?per_page=60`);
@@ -94,7 +101,7 @@ function render(d) {
     .format(new Date()).toUpperCase().replace(',', '  ·');
 
   // tiles
-  const tiles = [[fmt(d.contributions), 'CONTRIBUTIONS', 'LAST 12 MONTHS', C.teal], [fmt(d.repos), 'PUBLIC REPOS', 'IN THE ARMORY', C.bone], [fmt(d.stars), 'STARS EARNED', 'ACROSS ORIGINALS', C.gold2], [fmt(d.followers), 'FOLLOWERS', 'IN THE PARTY', C.red]];
+  const tiles = [[fmt(d.contributions), 'CONTRIBUTIONS', 'LAST 12 MONTHS', C.teal], [fmt(d.repos), 'PUBLIC REPOS', 'IN THE ARMORY', C.bone], [fmt(d.active), 'ACTIVE DAYS', 'IN THE LAST 12 MONTHS', C.gold2], [fmt(d.streak), 'BEST STREAK', 'DAYS IN A ROW', C.red]];
   let a = '';
   tiles.forEach(([v, l, s, col], i) => {
     const x = 48 + (i % 2) * 182, y = top + Math.floor(i / 2) * 122;
@@ -140,7 +147,7 @@ function render(d) {
   @keyframes bar{from{transform:scaleX(0)}}
   .pulse{animation:pulse 1.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
   @keyframes pulse{50%{opacity:.3;transform:scale(.6)}}`;
-  return svg(W, H, body, { title: `Live GitHub stats for ${USER}: ${fmt(d.contributions)} contributions in the last year, ${fmt(d.repos)} public repos, ${fmt(d.stars)} stars, ${fmt(d.followers)} followers`, style });
+  return svg(W, H, body, { title: `Live GitHub stats for ${USER}: ${fmt(d.contributions)} contributions in the last year, ${fmt(d.repos)} public repos, ${fmt(d.active)} active days, best streak ${fmt(d.streak)} days`, style });
 }
 
 const data = await collect();

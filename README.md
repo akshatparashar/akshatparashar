@@ -33,7 +33,7 @@
 <br><br>
 
 <a name="stats"></a>
-<img src="assets/stats.svg" width="100%" alt="Live service record: contributions in the last year, public repos, stars, followers, top languages and recent public activity. Refreshed every 6 hours.">
+<img src="assets/stats.svg" width="100%" alt="Live service record: contributions in the last year, public repos, active days, best streak, top languages and recent public activity. Refreshed every 6 hours.">
 
 <br><br>
 

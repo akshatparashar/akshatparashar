@@ -1,0 +1,22 @@
+{
+  "name": "profile-panels",
+  "version": "1.0.0",
+  "description": "Generates the VALORANT-client style panels for the GitHub profile README",
+  "scripts": {
+    "build": "node build.mjs",
+    "cards": "node cards.mjs",
+    "live": "node live.mjs",
+    "sample": "node live.mjs --sample"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "opentype.js": "^2.0.0"
+  },
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "playwright": "^1.56.0"
+  }
+}

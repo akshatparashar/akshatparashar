@@ -1,420 +1,57 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050505,50:111111,100:1a1a1a&height=230&section=header&text=AKSHAT%20PARASHAR&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=DESIGN%20%C2%B7%20CODE%20%C2%B7%20INTELLIGENCE&descSize=15&descAlignY=58&descColor=9b9b9b&animation=fadeIn"/>
+<a href="https://akshatparashar.vercel.app/"><img src="assets/hero.svg" width="100%" alt="Akshat Parashar #AI26 — AI Engineer at FLO, Jaipur. Software, full-stack, UI/UX and AI."></a>
 
-<a href="https://git.io/typing-svg">
-<img src="https://readme-typing-svg.demolab.com?font=Space+Mono&size=18&duration=3000&pause=900&color=FFFFFF&center=true&vCenter=true&width=650&lines=Full-Stack+Developer;UI%2FUX+Designer;AI+Engineer;Building+digital+experiences+that+feel+alive." alt="Typing SVG" />
-</a>
+<a href="https://akshatparashar.vercel.app/"><img src="assets/tab-play.svg" height="42" alt="Play: open the portfolio client"></a><a href="#career"><img src="assets/tab-career.svg" height="42" alt="Career"></a><a href="#agents"><img src="assets/tab-agents.svg" height="42" alt="Agents"></a><a href="#collection"><img src="assets/tab-collection.svg" height="42" alt="Collection"></a><a href="#stats"><img src="assets/tab-stats.svg" height="42" alt="Stats"></a><a href="#night-market"><img src="assets/tab-night-market.svg" height="42" alt="Night market"></a>
+
+<br>
+
+<a name="career"></a>
+<img src="assets/career.svg" width="100%" alt="Match history. LIVE: AI Engineer at FLO, May 2026 to now, shipping LLM-powered tools and automated AI workflows. VICTORY: DevOps Intern at Celebal Technologies, 2025. VICTORY: UI/UX Designer at GreyMoon, 2024. VICTORY: Web Designer at InternPay, 2023. GRADUATED: B.Tech CSE, Poornima College of Engineering, CGPA 8.6. CLEARED: Class XII PCM, 93.4%.">
 
 <br><br>
 
-<a href="https://akshatparashar.vercel.app/">
-<img src="https://img.shields.io/badge/PORTFOLIO-111111?style=for-the-badge&logo=vercel&logoColor=white"/>
-</a>
-&nbsp;
-<a href="https://www.linkedin.com/in/akshat-parashar-13x">
-<img src="https://img.shields.io/badge/LINKEDIN-111111?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-&nbsp;
-<a href="https://github.com/akshatparashar">
-<img src="https://img.shields.io/badge/GITHUB-111111?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-</div>
-
-<br>
-
----
-
-<div align="center">
-
-## `01 / INTRO`
-
-### I design the interface. Then I make it real.
-
-I'm **Akshat Parashar** — a full-stack developer, UI/UX designer and AI enthusiast who enjoys turning ideas into polished digital experiences.
-
-I work across the entire journey:
-
-**IDEA → DESIGN → CODE → AI → DEPLOY → IMPROVE**
-
-<br>
-
-> **Make it useful. Make it beautiful. Make it work.**
-
-</div>
-
----
-
-## `02 / WHAT I DO`
-
-<table>
-<tr>
-
-<td width="25%" align="center">
-
-### ◉ WEB
-
-Build full-stack applications with modern web technologies.
-
-</td>
-
-<td width="25%" align="center">
-
-### ◉ DESIGN
-
-Create interfaces with strong visual hierarchy and interaction.
-
-</td>
-
-<td width="25%" align="center">
-
-### ◉ AI
-
-Turn AI capabilities into practical products and experiences.
-
-</td>
-
-<td width="25%" align="center">
-
-### ◉ BUILD
-
-Take ideas from prototype to something people can actually use.
-
-</td>
-
-</tr>
-</table>
-
----
-
-## `03 / TOOLKIT`
-
-<div align="center">
-
-### DEVELOPMENT
-
-<img src="https://skillicons.dev/icons?i=html,css,js,nodejs,express,python,cpp" />
-
-### DATABASE · DEVOPS · TOOLS
-
-<img src="https://skillicons.dev/icons?i=mongodb,git,github,docker,vercel,figma" />
-
-### AI / ML
-
-`Artificial Intelligence` · `LLM Applications` · `Machine Learning` · `Computer Vision`
-
-</div>
-
----
-
-## `04 / SELECTED WORK`
-
-<table>
-<tr>
-
-<td width="50%" valign="top">
-
-### 🤖 AI RESUME ANALYZER
-
-An intelligent resume platform combining:
-
-* Resume parsing
-* ATS analysis
-* Skill extraction
-* Job matching
-* AI suggestions
-
-**Stack**
-
-`JavaScript` `Node.js` `Express` `MongoDB` `AI`
-
-<br>
-
-<a href="https://akshatparashar.vercel.app/">
-<b>VIEW PROJECT →</b>
-</a>
-
-</td>
-
-<td width="50%" valign="top">
-
-### 🧠 DSA MENTOR AI
-
-An AI-powered learning experience designed around making DSA learning more interactive and accessible.
-
-**Focus**
-
-`AI` `Education` `Product Design` `Web`
-
-<br>
-
-<a href="https://github.com/akshatparashar">
-<b>VIEW ON GITHUB →</b>
-</a>
-
-</td>
-
-</tr>
-
-<tr>
-
-<td width="50%" valign="top">
-
-### ✨ WEB EXPERIENCES
-
-Interactive websites focused on:
-
-`Motion`
-`Visual Design`
-`Micro-interactions`
-`Responsive Experiences`
-
-</td>
-
-<td width="50%" valign="top">
-
-### 🤟 COMPUTER VISION
-
-Real-time hand gesture recognition experiments using:
-
-`Python` `OpenCV` `MediaPipe` `ML`
-
-</td>
-
-</tr>
-
-</table>
-
----
-
-## `05 / BEHIND THE BUILD`
-
-<details>
-<summary><b>🧩 How I approach a project</b></summary>
-
-<br>
-
-### 01 — DISCOVER
-
-Understand the problem before touching the code.
-
-### 02 — DESIGN
-
-Think about the user, interface, hierarchy and interaction.
-
-### 03 — DEVELOP
-
-Build the system with clean and maintainable code.
-
-### 04 — INTEGRATE
-
-Connect APIs, databases, AI and the pieces underneath the interface.
-
-### 05 — SHIP
-
-Deploy it.
-
-### 06 — IMPROVE
-
-Listen, learn and iterate.
-
-<br>
-
-**Discover → Design → Develop → Integrate → Ship → Improve**
-
-</details>
-
-<br>
-
-<details>
-<summary><b>⚡ What I care about</b></summary>
-
-<br>
-
-**01 — First impression**
-
-A product should immediately communicate what it does.
-
-**02 — Details**
-
-Spacing, typography, motion and micro-interactions matter.
-
-**03 — Function**
-
-Beautiful interfaces are useless if the product doesn't work.
-
-**04 — Simplicity**
-
-Complex systems should feel simple to the person using them.
-
-**05 — Learning**
-
-Every project should leave me better than when I started it.
-
-</details>
-
----
-
-## `06 / CURRENTLY`
-
-<table>
-<tr>
-<td>
-
-**BUILDING**
-
-AI-powered web applications
-
-</td>
-<td>
-
-**EXPLORING**
-
-AI Engineering × Product Design
-
-</td>
-</tr>
-
-<tr>
-<td>
-
-**IMPROVING**
-
-Full-Stack Architecture
-
-</td>
-<td>
-
-**INTERESTED IN**
-
-Interfaces that feel alive
-
-</td>
-</tr>
-</table>
-
----
-
-## `07 / GITHUB ACTIVITY`
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=akshatparashar&show_icons=true&hide_border=true&bg_color=00000000&title_color=ffffff&text_color=888888&icon_color=ffffff&rank_icon=github" height="170"/>
-
-<img src="https://streak-stats.demolab.com?user=akshatparashar&hide_border=true&background=00000000&stroke=333333&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=888888&dates=666666" height="170"/>
+<a name="agents"></a>
+<img src="assets/agents.svg" width="100%" alt="Skills as agent roles. Duelist, languages: JavaScript, HTML, CSS, Python, TypeScript, C++. Initiator, web: React, Node.js, Express, REST APIs, MongoDB, Postman, SQL. Controller, AI/ML: prompt engineering, Gemini API, Groq API, LLM workflows, Google AI Studio, OpenCV. Sentinel, DevOps: Vercel, Git, Linux, Docker, Jenkins, Kubernetes, AWS, Azure. Visionary, design: Figma, UI/UX, Canva, Framer Motion.">
 
 <br><br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=akshatparashar&bg_color=00000000&color=888888&line=ffffff&point=ffffff&area=true&hide_border=true" width="95%"/>
+<a name="collection"></a>
+<img src="assets/collection.svg" width="100%" alt="Collection: projects as weapon skins">
 
-</div>
+<a href="https://resume-bolt.vercel.app/"><img src="assets/cards/resume.webp" width="49%" alt="Vandal, Ultra Edition: AI Resume Analyzer — ATS scoring, job matching and career recommendations. Node.js, MongoDB, Groq AI."></a>
+<a href="https://dsa-teacher.vercel.app/"><img src="assets/cards/dsa.webp" width="49%" alt="Phantom, Premium Edition: DSA Mentor AI — Gemini explains code and complexity with visualisations and an in-browser IDE."></a>
+<a href="https://www.vishvora.com/"><img src="assets/cards/vishvora.webp" width="49%" alt="Operator, Exclusive Edition: Vishvora.com — a live travel platform."></a>
+<a href="https://tunesofdunes.com/"><img src="assets/cards/tunes.webp" width="49%" alt="Marshal, Exclusive Edition: TunesofDunes.com — Rajasthan tourism with booking flows and WhatsApp."></a>
+<a href="https://github.com/akshatparashar/A54-PocketLab"><img src="assets/cards/a54.webp" width="49%" alt="Sheriff, Deluxe Edition: A54 Pocket Server — an Oppo A54 running as a self-hosted web server."></a>
+<a href="https://github.com/akshatparashar/HAND_GESTURE"><img src="assets/cards/gesture.webp" width="49%" alt="Ghost, Premium Edition: Hand Gesture Recognition — real-time computer vision with Python and OpenCV."></a>
+<a href="https://animated-website-dun.vercel.app/"><img src="assets/cards/animated.webp" width="49%" alt="Classic, Select Edition: Animated Product Site — a product website built around motion."></a>
+<a href="https://akshatparashar.vercel.app/"><img src="assets/cards/portfolio.webp" width="49%" alt="Knife, Ultra Edition: The Portfolio Client — a game-client portfolio with UI sounds and a recruiter matchmaking queue."></a>
 
----
-
-## `08 / A LITTLE MORE`
-
-<details>
-<summary><b>👀 Click to discover</b></summary>
-
-<br>
-
-```text
-DESIGN
-    ↓
-Understand the experience
-
-CODE
-    ↓
-Build the system
-
-AI
-    ↓
-Add intelligence
-
-SHIP
-    ↓
-Put it in the hands of people
-
-LEARN
-    ↓
-Do it better next time
-```
-
-</details>
-
-<details>
-<summary><b>🛠️ Things I enjoy building</b></summary>
-
-<br>
-
-* AI-powered applications
-* Full-stack web products
-* Interactive websites
-* Clean dashboards
-* Developer tools
-* Machine-learning experiments
-* UI/UX systems
-* Experimental digital experiences
-
-</details>
-
----
-
-## `09 / PHILOSOPHY`
-
-<div align="center">
-
-# DESIGN × CODE × INTELLIGENCE
-
-<br>
-
-### Design is not decoration.
-
-### Code is not just implementation.
-
-### The best products need both.
-
-<br>
-
-`THINK → DESIGN → BUILD → SHIP → IMPROVE`
-
-</div>
-
----
-
-## `10 / LET'S CONNECT`
-
-<div align="center">
-
-### HAVE AN IDEA WORTH BUILDING?
-
-# LET'S MAKE IT REAL.
-
-<br>
-
-<a href="https://akshatparashar.vercel.app/">
-<img src="https://img.shields.io/badge/EXPLORE%20MY%20PORTFOLIO-FFFFFF?style=for-the-badge&logo=vercel&logoColor=000000"/>
-</a>
+<sub>SOURCE &nbsp;·&nbsp; <a href="https://github.com/akshatparashar/resume-frontend">AI Resume Analyzer</a> &nbsp;·&nbsp; <a href="https://github.com/akshatparashar/DSA_TEACHER">DSA Mentor AI</a> &nbsp;·&nbsp; <a href="https://github.com/akshatparashar/animated_website">Animated Product Site</a> &nbsp;·&nbsp; <a href="https://github.com/akshatparashar/PROTFOLIO">Portfolio Client</a></sub>
 
 <br><br>
 
-<a href="https://www.linkedin.com/in/akshat-parashar-13x">
-<img src="https://img.shields.io/badge/CONNECT%20ON%20LINKEDIN-111111?style=for-the-badge&logo=linkedin&logoColor=FFFFFF"/>
-</a>
+<a name="stats"></a>
+<img src="assets/stats.svg" width="100%" alt="Live service record: contributions in the last year, public repos, stars, followers, top languages and recent public activity. Refreshed every 6 hours.">
 
 <br><br>
 
-`AKSHAT PARASHAR`
+<a name="night-market"></a>
+<img src="assets/night-market.svg" width="100%" alt="Night market of fun facts: turned an Oppo A54 into a web server; scored 93.4% in Class XII; plays VALORANT; builds out of Jaipur; AI Engineer at FLO since May 2026; speaks English and Hindi.">
 
-**DESIGN · CODE · INTELLIGENCE**
+<br><br>
 
-</div>
+<a href="mailto:akshatparashar4704@gmail.com"><img src="assets/find-match.svg" width="100%" alt="Ready to queue? Find match: email Akshat about hiring, collaborations or freelance builds."></a>
 
-<br>
+<a href="https://akshatparashar.vercel.app/"><img src="assets/btn-portfolio.svg" height="40" alt="Portfolio"></a>&nbsp;
+<a href="https://www.linkedin.com/in/akshat-parashar-13x"><img src="assets/btn-linkedin.svg" height="40" alt="LinkedIn"></a>&nbsp;
+<a href="https://drive.google.com/file/d/1BkL_vgbHshUp0XGoYss1QzYNgMiGI6hy/view?usp=sharing"><img src="assets/btn-resume.svg" height="40" alt="Resume"></a>&nbsp;
+<a href="mailto:akshatparashar4704@gmail.com"><img src="assets/btn-email.svg" height="40" alt="Email"></a>&nbsp;
+<a href="https://www.instagram.com/akshat_parashar.007/"><img src="assets/btn-instagram.svg" height="40" alt="Instagram"></a>
 
-<div align="center">
+<br><br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a1a,50:111111,100:050505&height=120&section=footer"/>
+<img src="assets/footer.svg" width="100%" alt="GG. Akshat Parashar — design, code, intelligence. Jaipur. Fan-made theme, not affiliated with Riot Games.">
 
 </div>

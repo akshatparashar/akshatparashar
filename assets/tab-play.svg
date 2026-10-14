@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="105" height="42" viewBox="0 0 105 42" role="img" aria-label="Play">
+<title>Play</title>
+<defs><path id="f0g45" d="M424 0L78 0L78 -1760L543 -1760Q689 -1760 775 -1695Q860 -1630 897 -1510Q934 -1390 934 -1224L934 -1224Q934 -1064 903 -945Q872 -827 793 -762Q713 -697 567 -697L567 -697L424 -697L424 0M424 -1439L424 -1013L444 -1013Q542 -1013 564 -1068Q586 -1123 586 -1230L586 -1230Q586 -1330 565 -1384Q543 -1439 463 -1439L463 -1439L424 -1439"/><path id="f0g33" d="M792 0L78 0L78 -1760L430 -1760L430 -300L792 -300L792 0"/><path id="f0g4" d="M372 0L30 0L200 -1760L797 -1760L964 0L631 0L606 -284L394 -284L372 0M486 -1460L419 -565L579 -565L502 -1460L486 -1460"/><path id="f0g59" d="M623 0L291 0L291 -579L10 -1760L359 -1760L457 -1164L555 -1760L903 -1760L623 -579L623 0"/></defs>
+<style>
+
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<path d="M0 0H105L91 42H0Z" fill="#ece8e1"/>
+        <path d="M8 92L42 8H60L26 92ZM48 92L58 66H76L66 92ZM62 8H78Q96 8 96 27Q96 46 78 46H62L68 32H76Q81 32 81 27Q81 22 76 22H57Z" fill="#ff4655" transform="translate(12 9) scale(.24)"/>
+        <g fill="#0a1118"  transform="translate(42 31) scale(0.01074)"><use href="#f0g45" x="0"/><use href="#f0g33" x="1060"/><use href="#f0g4" x="1967"/><use href="#f0g59" x="3054"/></g>
+</svg>
